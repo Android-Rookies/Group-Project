@@ -36,8 +36,6 @@ Group Project - README
 **Optional Nice-to-have Stories**
 
 * [Have an example list that the users can refer to.]
-* ``
-* ...
 
 ### 2. Screen Archetypes
 
