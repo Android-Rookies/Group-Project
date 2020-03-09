@@ -1,3 +1,4 @@
+Travoris Bradford, Aleyah Rowell, Kelvin-Clyde McGuire 
 Unit 8 group milestones 
 Group Project - README 
 ===
@@ -12,7 +13,7 @@ Group Project - README
 
 ## Overview
 ### Description
-[This grocery list application will have a log-in screen and also have a create an account screen.  The features will also  pertain to making this the best downloadable grocery app.  You can also be able to manage your list and be able to add-on/remove items to your disposal.]
+[This grocery list application will have a grocery list screen, and also have a update and remove item screen on the grocery list screen.  The features will also  pertain to making this the best downloadable grocery app.  You can also be able to manage your list and be able to add-on/remove items to your disposal.]
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
