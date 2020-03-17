@@ -89,10 +89,51 @@ Group Project - README
  
  
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request
+### Networking
+•	Home Screen (Grocery List)
+-	(Read/GET) Load items that were previously saved by the user
+-	//This function will load items by reading every line of the data file
+private void loadItems(){
+    try {
+        items = new ArrayList<>(FileUtils.readLines(getDataFile(), Charset.defaultCharset()));
+    } catch (IOException e) {
+        Log.e("MainActivity","Error reading items", e);
+        items = new ArrayList<>();
+    }
+}
 
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+-	(Create/ITEMS) Add a new item to the grocery list
+
+btnAdd.setOnClickListener(new View.OnClickListener(){
+    @Override
+    public void onClick(View v){
+        String todoItem = etItem.getText().toString();
+        //Add item to the model
+        items.add(todoItem);
+        //Notify adapter that an item is inserted
+        itemsAdapter.notifyItemInserted( position = items.size() - 1);
+        etItem.setText("");
+        Toast.makeText(getApplicationContext(), text = "Item was added", Toast.LENGTH_SHORT).show();
+        saveItems();
+    }
+});
+
+-	(Update/ITEMS) Edit an existing item on the grocery list
+
+-	 (Delete) Delete an item from the grocery list
+
+ItemsAdapter.OnLongClickListener onLongClickListener = new ItemsAdapter.OnLongClickListener(){
+    @Override
+    public void onItemLongClicked(int position) {
+        //Delete the item from the model
+        items.remove(position);
+        //Notify the adapter
+        itemsAdapter.notifyItemRemoved(position);
+        Toast.makeText(getApplicationContext(), text = "Item was removed", Toast.LENGTH_SHORT).show();
+        saveItems();
+    }
+};
+
    
 ## Sprints
 [x]- Finalize unit 9 HackMD document
