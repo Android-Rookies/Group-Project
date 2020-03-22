@@ -1,5 +1,5 @@
 Travoris Bradford, Aleyah Rowell, Kelvin-Clyde McGuire 
-Unit 8- Unit 9 group milestones 
+Unit 8 group milestones
 Group Project - README
 ===
 
@@ -89,57 +89,31 @@ Group Project - README
  
  
 ### Networking
-### Networking
-•	Home Screen (Grocery List)
--	(Read/GET) Load items that were previously saved by the user
--	//This function will load items by reading every line of the data file
-private void loadItems(){
-    try {
-        items = new ArrayList<>(FileUtils.readLines(getDataFile(), Charset.defaultCharset()));
-    } catch (IOException e) {
-        Log.e("MainActivity","Error reading items", e);
-        items = new ArrayList<>();
-    }
-}
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request
 
--	(Create/ITEMS) Add a new item to the grocery list
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
 
-btnAdd.setOnClickListener(new View.OnClickListener(){
-    @Override
-    public void onClick(View v){
-        String todoItem = etItem.getText().toString();
-        //Add item to the model
-        items.add(todoItem);
-        //Notify adapter that an item is inserted
-        itemsAdapter.notifyItemInserted( position = items.size() - 1);
-        etItem.setText("");
-        Toast.makeText(getApplicationContext(), text = "Item was added", Toast.LENGTH_SHORT).show();
-        saveItems();
-    }
-});
+## Sprint#1 Completed
+Updated HackMD for Unit 9, updated milestones, and issues for our application. 
 
--	(Update/ITEMS) Edit an existing item on the grocery list
+## Sprint #2 Completed
+Users will not have a login, they will only have the ability to create a list. Here are the instructions for making a list in our GroceryList app. 
 
--	 (Delete) Delete an item from the grocery list
+Step#1:-----Click the plus sign
+When the user clicks the plus sign, the app will prompt them to add an item to the list. 
 
-ItemsAdapter.OnLongClickListener onLongClickListener = new ItemsAdapter.OnLongClickListener(){
-    @Override
-    public void onItemLongClicked(int position) {
-        //Delete the item from the model
-        items.remove(position);
-        //Notify the adapter
-        itemsAdapter.notifyItemRemoved(position);
-        Toast.makeText(getApplicationContext(), text = "Item was removed", Toast.LENGTH_SHORT).show();
-        saveItems();
-    }
-};
+Step#2:-----Adding an item to the list
+When the user decides to finally add an item to the list, they will be able to click a button, that more than likely will say "Okay", then the item will be added to the list. 
 
-   
+Step#3:-----Removing or updating a list
+If the user wants to remove or update the list, then they will have to click on the item. The app will prompt them to choose whether they want to change the name of the item, then they will be able to update the item. However, if they want to delete, they follow the same instructions, and the app will prompt them to choose whether they want to delete or update. They will click delete, and the item will be deleted.
+
 ## Sprints
 [x]- Finalize unit 9 HackMD document
+
+[x]- Analyze how we can make the app easy for the user navigate  
 
 []- Analyze how we are going to code our project
 
 []- Analyze what additional features we can add to the application
-
-[]- Analyze how we can make the app easy for the user navigate
