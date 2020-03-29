@@ -114,7 +114,10 @@ If the user wants to remove or update the list, then they will have to click on 
 
 [x]- Analyze how we can make the app easy for the user navigate  
 
-[]- Analyze how we are going to code our project
+[x]- Analyze how we are going to code our project
 
 []- Analyze what additional features we can add to the application
-gif for updated process: https://i.imgur.com/ps1r88a.gifv
+
+Gif for updated process Unit 10: https://i.imgur.com/ps1r88a.gifv
+
+Gif for updated process Unit 11: https://i.imgur.com/TLIzifV.gifv
