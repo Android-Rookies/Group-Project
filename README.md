@@ -1,4 +1,4 @@
-Travoris Bradford, Aleyah Rowell, Kelvin-Clyde McGuire 
+Travoris Bradford, Aleyah Rowell, Kelvin-Clyde McGuire
 Unit 8 group milestones
 Group Project - README
 ===
@@ -94,21 +94,6 @@ Group Project - README
 
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
-## Sprint#1 Completed
-Updated HackMD for Unit 9, updated milestones, and issues for our application. 
-
-## Sprint #2 Completed
-Users will not have a login, they will only have the ability to create a list. Here are the instructions for making a list in our GroceryList app. 
-
-Step#1:-----Click the plus sign
-When the user clicks the plus sign, the app will prompt them to add an item to the list. 
-
-Step#2:-----Adding an item to the list
-When the user decides to finally add an item to the list, they will be able to click a button, that more than likely will say "Okay", then the item will be added to the list. 
-
-Step#3:-----Removing or updating a list
-If the user wants to remove or update the list, then they will have to click on the item. The app will prompt them to choose whether they want to change the name of the item, then they will be able to update the item. However, if they want to delete, they follow the same instructions, and the app will prompt them to choose whether they want to delete or update. They will click delete, and the item will be deleted.
-
 ## Sprints
 [x]- Finalize unit 9 HackMD document
 
@@ -121,3 +106,23 @@ If the user wants to remove or update the list, then they will have to click on 
 Gif for updated process Unit 10: https://i.imgur.com/ps1r88a.gifv
 
 Gif for updated process Unit 11: https://i.imgur.com/TLIzifV.gifv
+
+## Sprint#1 Completed
+Updated HackMD for Unit 9, updated milestones, and issues for our application.
+
+## Sprint #2 Completed
+Users will not have a login, they will only have the ability to create a list. Here are the instructions for making a list in our GroceryList app.
+
+Step#1:-----Click the plus sign
+When the user clicks the plus sign, the app will prompt them to add an item to the list.
+
+Step#2:-----Adding an item to the list
+When the user decides to finally add an item to the list, they will be able to click a button, that more than likely will say "Okay", then the item will be added to the list.
+
+Step#3:-----Removing or updating a list
+If the user wants to remove or update the list, then they will have to click on the item. The app will prompt them to choose whether they want to change the name of the item, then they will be able to update the item. However, if they want to delete, they follow the same instructions, and the app will prompt them to choose whether they want to delete or update. They will click delete, and the item will be deleted.
+
+## Sprint#3 Completed
+We took the time to analyze how we were going to code the popup screen to add an item, and discover what would be the best and more efficient way for the user to use the add button. Thye popup screen is currently complete, we have to analyze how to code to get the add button to actually display an item. Our gif is displayed above by unit 11.
+
+
