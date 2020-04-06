@@ -125,4 +125,5 @@ If the user wants to remove or update the list, then they will have to click on 
 ## Sprint#3 Completed
 We took the time to analyze how we were going to code the popup screen to add an item, and discover what would be the best and more efficient way for the user to use the add button. Thye popup screen is currently complete, we have to analyze how to code to get the add button to actually display an item. Our gif is displayed above by unit 11.
 
-
+## Sprint#4 Completed
+We got the add button to work, but we didn't get anything to display. Our next sprint will be to figure out how to get the list displayed on the screen. 
