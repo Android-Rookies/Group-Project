@@ -106,6 +106,8 @@ Group Project - README
 Gif for updated process Unit 10: https://i.imgur.com/ps1r88a.gifv
 
 Gif for updated process Unit 11: https://i.imgur.com/TLIzifV.gifv
+ 
+Gif for updated process Unit 12: https://i.imgur.com/UaaAhJV.gifv
 
 ## Sprint#1 Completed
 Updated HackMD for Unit 9, updated milestones, and issues for our application.
