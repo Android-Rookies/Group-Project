@@ -109,6 +109,7 @@ Gif for updated process Unit 11: https://i.imgur.com/TLIzifV.gifv
  
 Gif for updated process Unit 12: https://i.imgur.com/UaaAhJV.gifv
 
+Gif for updated process Unit 13: https://i.imgur.com/ON2VjmP.gifv
 ## Sprint#1 Completed
 Updated HackMD for Unit 9, updated milestones, and issues for our application.
 
@@ -129,3 +130,7 @@ We took the time to analyze how we were going to code the popup screen to add an
 
 ## Sprint#4 Completed
 We got the add button to work, but we didn't get anything to display. Our next sprint will be to figure out how to get the list displayed on the screen. 
+
+
+## Sprint #5 Completed
+We have fixed our error, the buttons on our app works. For our next sprint we will be trying to see if we want to change the color of it.
