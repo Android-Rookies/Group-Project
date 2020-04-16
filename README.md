@@ -101,7 +101,7 @@ Group Project - README
 
 [x]- Analyze how we are going to code our project
 
-[]- Analyze what additional features we can add to the application
+[x]- Analyze what additional features we can add to the application
 
 Gif for updated process Unit 10: https://i.imgur.com/ps1r88a.gifv
 
@@ -110,6 +110,8 @@ Gif for updated process Unit 11: https://i.imgur.com/TLIzifV.gifv
 Gif for updated process Unit 12: https://i.imgur.com/UaaAhJV.gifv
 
 Gif for updated process Unit 13: https://i.imgur.com/ON2VjmP.gifv
+
+Final Gif: https://i.imgur.com/g1HAhe7.gifv
 ## Sprint#1 Completed
 Updated HackMD for Unit 9, updated milestones, and issues for our application.
 
@@ -134,3 +136,6 @@ We got the add button to work, but we didn't get anything to display. Our next s
 
 ## Sprint #5 Completed
 We have fixed our error, the buttons on our app works. For our next sprint we will be trying to see if we want to change the color of it.
+
+## Sprint #6 Completed
+We have successfully changed our color of the app.
